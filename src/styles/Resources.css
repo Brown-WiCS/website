@@ -1,0 +1,75 @@
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0px;
+  border-radius: 20px;
+  padding: 30px 20px 20px 20px;
+  margin: 20px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.resource-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.desc {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mentorship {
+  background: #d8b4ea;
+}
+
+.community {
+  background: #bd9fe3;
+}
+
+.mailing {
+  background: #203946;
+}
+
+.button {
+  font-style: bold;
+  width: 80%;
+  padding: 8px 8px;
+  border-radius: 20px;
+  font-size: 17px;
+  color: #203946;
+}
+
+.icon {
+  fill: white;
+  padding-bottom: 10px;
+}

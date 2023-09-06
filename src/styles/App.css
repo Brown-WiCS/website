@@ -1,0 +1,76 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main {
+  margin-top: 60px;
+  background-color: #EBE5F3;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 70px 50px 70px;
+}
+
+.section-header {
+  font-family: "FONTSPRING DEMO - Proxima Nova";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+  text-align: center;
+  color: #182C37;
+  margin-bottom: 2%;
+}
+
+.contact {
+  margin-bottom: 100px;
+}
+
+.link-text {
+  color:black;
+  font-weight:300;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+footer {
+  background-color: #182C37;
+  padding: 20px;
+}
+
+

@@ -1,0 +1,8 @@
+.calendar {
+  position: relative;
+  width: 552px;
+  height: 55px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
