@@ -33,7 +33,7 @@ const Resources = () => {
               <BsPeopleFill className="icon" size={36} />
               <h3 className="resource-title">Community</h3>
               <div className="desc">
-                Stay updated on WiCS events and other opportunities!
+                Stay updated on WiCS events and other opportunities by joining our mailing list + Slack!
               </div>
             </div>
             <Button
@@ -42,7 +42,7 @@ const Resources = () => {
               href="https://forms.gle/XGeACWXtdqim9Cmt5"
               target="_blank"
             >
-              Join our Mailing List + Slack
+              Join
             </Button>
           </div>
         </Col>
