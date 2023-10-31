@@ -10,6 +10,7 @@ import {
   Calendar,
   Footer,
   Resources,
+  Sponsors
 } from "./components/components";
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
         </section>
         <section id="Socials">
           <Socials />
+        </section>
+        <section id="Sponsors">
+          <Sponsors />
         </section>
         <section id="Contacts">
           <Contact />
