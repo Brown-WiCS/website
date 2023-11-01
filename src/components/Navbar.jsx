@@ -23,6 +23,9 @@ function Navbar() {
         <li className="Socials">
           <a href="#Socials">Socials</a>
         </li>
+        <li className="Sponsors">
+          <a href="#Sponsors">Sponsors</a>
+        </li>
         <li className="Contacts">
           <a href="#Contacts">Contact Us</a>
         </li>
