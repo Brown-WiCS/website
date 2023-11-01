@@ -6,5 +6,6 @@ import Mission from "./Mission.jsx";
 import Calendar from "./Calendar.jsx";
 import Footer from "./Footer.jsx";
 import Resources from "./Resources.jsx";
+import Sponsors from "./Sponsors.jsx";
 
-export { Navbar, Contact, Socials, Landing, Mission, Calendar, Footer, Resources }
+export { Navbar, Contact, Socials, Landing, Mission, Calendar, Footer, Resources, Sponsors }
