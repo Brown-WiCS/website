@@ -51,6 +51,18 @@ section {
   margin-bottom: 2%;
 }
 
+.section-subheader {
+  margin-bottom: 0.1rem;
+}
+
+.section-subheader.gold {
+    color: #DAA520; 
+}
+
+.section-subheader.silver {
+    color: silver;
+}
+
 .contact {
   margin-bottom: 100px;
 }

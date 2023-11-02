@@ -14,4 +14,9 @@ export const sponsor_info = [
     tier: "gold",
     logo: "old_mission.png",
   },
+  {
+    company: "Roblox",
+    tier: "silver",
+    logo: "roblox.png",
+  },
 ];
