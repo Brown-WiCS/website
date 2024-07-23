@@ -1,51 +1,30 @@
 import React from "react";
 import "./styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {
   Navbar,
-  Contact,
-  Socials,
-  Landing,
-  Mission,
-  Calendar,
   Footer,
-  Resources,
-  Sponsors
+  Home,
+  Resources
 } from "./components/components";
 
 function App() {
   return (
-    <div className="app">
-      <div id="navbar">
-        <Navbar />
+    <Router>
+      <div className="app">
+        <div id="navbar">
+          <Navbar />
+        </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/resources" element={<Resources />} />
+        </Routes>
+        <div>
+          <Footer />
+        </div>
       </div>
-      <main>
-        <section id="Landing">
-          <Landing />
-        </section>
-        <section id="Mission">
-          <Mission />
-        </section>
-        <section id="Calendar">
-          <Calendar />
-        </section>
-        <section id="Resources">
-          <Resources />
-        </section>
-        <section id="Socials">
-          <Socials />
-        </section>
-        <section id="Sponsors">
-          <Sponsors />
-        </section>
-        <section id="Contacts">
-          <Contact />
-        </section>
-      </main>
-      <div>
-        <Footer />
-      </div>
-    </div>
+    </Router>
   );
 }
 

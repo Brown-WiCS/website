@@ -7,5 +7,6 @@ import Calendar from "./Calendar.jsx";
 import Footer from "./Footer.jsx";
 import Resources from "./Resources.jsx";
 import Sponsors from "./Sponsors.jsx";
+import Home from "./Home.jsx";
 
-export { Navbar, Contact, Socials, Landing, Mission, Calendar, Footer, Resources, Sponsors }
+export { Navbar, Contact, Socials, Landing, Mission, Calendar, Footer, Resources, Sponsors, Home }

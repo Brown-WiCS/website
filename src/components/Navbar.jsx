@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Navbar.css";
 import WiCS from "../assets/images/WiCS.png";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -11,16 +12,21 @@ function Navbar() {
         </a>
       </div>
       <ul className="navbar-sections">
-        <li className="Mission mission-header">
+      <li className="Resources">
+          <Link to="/">Home</Link>
+          {/* <a href="#Resources">Resources</a> */}
+        </li>
+        {/* <li className="Mission mission-header">
           <a href="#Mission">Mission</a>
         </li>
         <li className="Calendar">
           <a href="#Calendar">Calendar</a>
-        </li>
+        </li> */}
         <li className="Resources">
-          <a href="#Resources">Resources</a>
+          <Link to="/resources">Resources</Link>
+          {/* <a href="#Resources">Resources</a> */}
         </li>
-        <li className="Socials">
+        {/* <li className="Socials">
           <a href="#Socials">Socials</a>
         </li>
         <li className="Sponsors">
@@ -28,7 +34,7 @@ function Navbar() {
         </li>
         <li className="Contacts">
           <a href="#Contacts">Contact Us</a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
