@@ -13,28 +13,14 @@ function Navbar() {
       </div>
       <ul className="navbar-sections">
       <li className="Resources">
-          <Link to="/">Home</Link>
-          {/* <a href="#Resources">Resources</a> */}
+          <Link to="/home">Home</Link>
         </li>
-        {/* <li className="Mission mission-header">
-          <a href="#Mission">Mission</a>
-        </li>
-        <li className="Calendar">
-          <a href="#Calendar">Calendar</a>
-        </li> */}
         <li className="Resources">
           <Link to="/resources">Resources</Link>
-          {/* <a href="#Resources">Resources</a> */}
         </li>
-        {/* <li className="Socials">
-          <a href="#Socials">Socials</a>
+        <li className="Blog">
+          <Link to="/blog">Blog</Link>
         </li>
-        <li className="Sponsors">
-          <a href="#Sponsors">Sponsors</a>
-        </li>
-        <li className="Contacts">
-          <a href="#Contacts">Contact Us</a>
-        </li> */}
       </ul>
     </nav>
   );

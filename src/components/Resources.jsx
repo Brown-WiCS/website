@@ -6,11 +6,10 @@ import {
   BsFillRocketFill,
 } from "react-icons/bs";
 import "../styles/Resources.css";
-import "../styles/App.css";
 
 const Resources = () => {
   return (
-    <div className="app">
+    <div className="resources">
       <main>
         <section>
         <div className="content-container">

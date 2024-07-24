@@ -1,0 +1,36 @@
+.carousel-container {
+    max-width: 600px; /* Set the maximum width of the carousel */
+    margin: 0 auto; /* Center the carousel horizontally */
+  }
+  
+  .carousel .slide img {
+    max-height: 300px; /* Set the maximum height of the images */
+    object-fit: cover; /* Ensure images cover the area without stretching */
+  }
+  
+  .carousel .legend {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for legends */
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  .carousel .carousel-status {
+    display: none; /* Hide the status (e.g., "1 of 3") */
+  }
+  
+  .carousel .control-dots {
+    bottom: -25px; /* Adjust the position of the dots */
+  }
+  
+  .carousel .control-dots .dot {
+    background: #333; /* Custom color for dots */
+    width: 10px;
+    height: 10px;
+  }
+  
+  .carousel .control-arrow {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for arrows */
+    border-radius: 50%;
+  }
