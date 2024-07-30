@@ -9,6 +9,7 @@ import {
   socials6,
 } from "../assets/socials_images/socials";
 import "../styles/Socials.css";
+import ImageCarousel from "./ImageCarousel";
 
 const Socials = () => {
   return (
@@ -24,7 +25,8 @@ const Socials = () => {
           join our Slack below.
         </h3>
       </div>
-      <Row>
+      <ImageCarousel />
+      {/* <Row>
         <Col md={4}>
           <Image src={socials1} className="image-style" thumbnail />
         </Col>
@@ -45,7 +47,7 @@ const Socials = () => {
         <Col xs={12} md={4}>
           <Image src={socials6} className="image-style" thumbnail />
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 };
