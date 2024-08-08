@@ -1,18 +1,28 @@
-import * as React from "react";
 import "../styles/Landing.css";
 import WiCSLogo from "../assets/images/WiCSLogo.png";
 import { Col } from "react-bootstrap";
+import Typewriter from 'react-typewriter-effect';
+import React, { useState } from 'react';
 
 const Landing = () => {
   return (
     <div className="landing-container">
       <Col sm={12} md={6}>
-        <h1
-          style={{ "font-size": "42px", "font-color": "182C37" }}
-          className="lh-base"
-        >
-          We are <b>Brown University Women in Computer Science</b>
-        </h1>
+      <h1 className="typing-effect">
+        Welcome to
+        <Typewriter
+          textStyle={{ fontWeight: 'bold', lineHeight: '1.5' }}
+          startDelay={100}
+          cursorColor="black"
+          multiText={[
+            'Brown University Women in Computer Science!',
+          ]}
+          multiTextDelay={1000}
+          typeSpeed={150}
+          hideCursorAfterText={false}
+          multiTextLoop={true}
+        />
+      </h1>
         <div style={{ "font-size": "20px" }}>
           Brown University's social and professional community to support and
           empower women pursuing CS!

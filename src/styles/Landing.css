@@ -7,3 +7,16 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.typing-effect {
+  display: inline; /* Ensure the element is inline to allow text wrapping */
+  white-space: normal; /* Allow the text to wrap */
+  position: relative; /* Position relative for cursor placement */
+  line-height: 1.5;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.bold-text {
+  font-weight: bold;
+}
