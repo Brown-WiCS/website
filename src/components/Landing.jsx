@@ -9,24 +9,29 @@ const Landing = () => {
     <div className="landing-container">
       <Col sm={12} md={6}>
       <h1 className="typing-effect">
-        Welcome to
+        <span>
+        Welcome to <br/><span className="bold-text">Brown University Women</span>
+        </span>
+        <span className="flex-container">
+          <span style={{paddingRight: '10px', fontWeight: 'bold'}}> in </span>
         <Typewriter
           textStyle={{ fontWeight: 'bold', lineHeight: '1.5' }}
           startDelay={100}
           cursorColor="black"
           multiText={[
-            'Brown University Women in Computer Science!',
+            ' Computer Science!',
           ]}
           multiTextDelay={1000}
           typeSpeed={150}
           hideCursorAfterText={false}
           multiTextLoop={true}
         />
+        </span>
       </h1>
-        <div style={{ "font-size": "20px" }}>
+        {/* <div style={{ "font-size": "20px" }}>
           Brown University's social and professional community to support and
           empower women pursuing CS!
-        </div>
+        </div> */}
         <br />
         <LandingButton />
       </Col>
@@ -44,7 +49,7 @@ function LandingButton() {
         class="btn btn-primary"
         style={{ "background-color": "#182C37", border: "#182C37" }}
       >
-        <span style={{ "font-size": "20px" }}>Get Involved</span>
+        <span style={{ "font-size": "20px" }}>Join Us</span>
       </button>
     </a>
   );

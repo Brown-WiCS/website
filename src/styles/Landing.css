@@ -14,9 +14,16 @@
   position: relative; /* Position relative for cursor placement */
   line-height: 1.5;
   padding-bottom: 20px;
+  /* white-space: nowrap; */
+  /* display: flex; */
   display: inline-block;
 }
 
 .bold-text {
   font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
 }
