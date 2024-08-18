@@ -1,10 +1,12 @@
 import React from "react";
+import "../styles/Footer.css";
 import { instagram, facebook, slack, email } from "../assets/icons/icons.js";
 
 const Footer = () => {
   return (
-    <footer>
-      <div>
+    <footer className="text-center">
+      <span style={{ color: "white" }}>To reach WiCS, follow us here!</span>
+      <div className="py-3">
         <a
           href="https://www.instagram.com/brownuwics/?hl=en"
           target="_blank"

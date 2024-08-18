@@ -46,20 +46,6 @@ const Contact = () => {
           />
         ))}
       </Row>
-      <Row className="my-3 justify-content-center">
-        <div className="text-center" style={{ color: "#182C37" }}>
-          If you want to reach Brown WiCS, send over an email to us at{" "}
-          <a
-            href="mailto:wics@lists.cs.brown.edu"
-            target="_blank"
-            class="link-text"
-            rel="noreferrer"
-          >
-            wics@lists.cs.brown.edu
-          </a>
-          !
-        </div>
-      </Row>
     </Container>
   );
 };
