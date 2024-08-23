@@ -1,7 +1,7 @@
 
 .text-container {
   align-items: center;
-  background: #FFFFFF;
+  background: hsl(0, 0%, 100%);
   border-radius: 30px;
   padding: 35px 40px;
   font-size: 20px;
@@ -11,4 +11,23 @@
 
 .purple {
   color: #b985fc;
+}
+
+.mission-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #b985fc;
+}
+
+section#Mission {
+  background-color: #182C37;
+}
+
+.comingsoon {
+  color: white;
+  font-size: 20px;
+  align-items: center;
 }

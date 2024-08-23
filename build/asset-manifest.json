@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.561f480c.css",
-    "main.js": "/website/static/js/main.b5b0f6fd.js",
-    "static/js/787.f966fae4.chunk.js": "/website/static/js/787.f966fae4.chunk.js",
+    "main.css": "/website/static/css/main.04aa48e4.css",
+    "main.js": "/website/static/js/main.cf448b60.js",
+    "static/js/453.10494eb0.chunk.js": "/website/static/js/453.10494eb0.chunk.js",
     "static/media/ckim.jpg": "/website/static/media/ckim.c2aca553faeaa9a60fa1.jpg",
     "static/media/rchou.jpg": "/website/static/media/rchou.113899e01912b8ead1cb.jpg",
     "static/media/eye.jpg": "/website/static/media/eye.5bf41b66aeb24cecb10b.jpg",
@@ -11,6 +11,7 @@
     "static/media/hmasamura.jpg": "/website/static/media/hmasamura.955b4f5ca397fcacdf38.jpg",
     "static/media/socials3.png": "/website/static/media/socials3.68835d9176da6c717b2e.png",
     "static/media/dwilliams.jpg": "/website/static/media/dwilliams.7343b5b284603f52d950.jpg",
+    "static/media/afeinberg.jpg": "/website/static/media/afeinberg.00a8bb4b3fc7d4ac4687.jpg",
     "static/media/socials4.png": "/website/static/media/socials4.6b287052e3b696cbeb12.png",
     "static/media/cyang.jpg": "/website/static/media/cyang.d46638e08fbadc7c28a0.jpg",
     "static/media/socials1.png": "/website/static/media/socials1.72d3adbf870d045aa790.png",
@@ -18,20 +19,24 @@
     "static/media/socials6.png": "/website/static/media/socials6.dda364b1bdbded0c6c68.png",
     "static/media/socials2.png": "/website/static/media/socials2.7497eef2483411065425.png",
     "static/media/jkavishe.jpg": "/website/static/media/jkavishe.099e53b34b43618f1dc8.jpg",
+    "static/media/kli.jpg": "/website/static/media/kli.23201662df276679acf1.jpg",
     "static/media/WiCSLogo.png": "/website/static/media/WiCSLogo.df98fd8e118cdef6b767.png",
     "static/media/WiCS.png": "/website/static/media/WiCS.05015c1d6de5a02bc4eb.png",
     "static/media/afry.jpg": "/website/static/media/afry.497631cceb64cdc3e1d8.jpg",
     "static/media/old_mission.png": "/website/static/media/old_mission.e07bd2441522dda76c14.png",
     "static/media/palantir.png": "/website/static/media/palantir.fdd99be588dbb0dce705.png",
     "static/media/bloomberg.png": "/website/static/media/bloomberg.4d264239094b3a3053c7.png",
+    "static/media/slick.svg": "/website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/website/index.html",
-    "main.561f480c.css.map": "/website/static/css/main.561f480c.css.map",
-    "main.b5b0f6fd.js.map": "/website/static/js/main.b5b0f6fd.js.map",
-    "787.f966fae4.chunk.js.map": "/website/static/js/787.f966fae4.chunk.js.map",
-    "static/media/afeinberg.jpg": "/website/static/media/afeinberg.jpg"
+    "main.04aa48e4.css.map": "/website/static/css/main.04aa48e4.css.map",
+    "main.cf448b60.js.map": "/website/static/js/main.cf448b60.js.map",
+    "453.10494eb0.chunk.js.map": "/website/static/js/453.10494eb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.561f480c.css",
-    "static/js/main.b5b0f6fd.js"
+    "static/css/main.04aa48e4.css",
+    "static/js/main.cf448b60.js"
   ]
 }

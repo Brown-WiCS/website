@@ -18,9 +18,9 @@ function Navbar() {
         <li className="Resources">
           <Link to="/resources">Resources</Link>
         </li>
-        <li className="Blog">
+        {/* <li className="Blog">
           <Link to="/blog">Blog</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

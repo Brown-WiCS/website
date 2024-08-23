@@ -42,13 +42,17 @@ section {
 }
 
 .section-header {
-  font-family: "FONTSPRING DEMO - Proxima Nova";
+  /* font-family: "FONTSPRING DEMO - Proxima Nova"; */
   font-weight: 700;
   font-size: 50px;
   line-height: 67px;
   text-align: center;
+  /* color: white; */
   color: #182C37;
   margin-bottom: 2%;
+}
+.section-header#Mission {
+  color: white;
 }
 
 .section-subheader {

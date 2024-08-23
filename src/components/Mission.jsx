@@ -4,7 +4,8 @@ import "../styles/Mission.css";
 const Mission = () => {
   return (
     <div className="content-container">
-      <h1 className="section-header">Mission</h1>
+      <h1 className="section-header" id="Mission">About Us</h1>
+      {/* <div className="comingsoon" >Video introduction coming soon!</div> */}
       <div className="text-container">
         <strong>Women in Computer Science (WiCS)</strong> was formed by female
         undergraduate students at Brown in the late 1980s to increase the

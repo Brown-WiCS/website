@@ -1,8 +1,64 @@
-.calendar {
+/* .calendar {
   position: relative;
   width: 552px;
   height: 55px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.calendar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.calendar-container iframe {
+  width: 100%;
+  max-width: 1024px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+/* FullCalendar Styling */
+
+#calendar {
+  width: 90%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  z-index: 0;
+  position: relative;
+}
+
+.fc, 
+.fc-event-title, 
+.fc-daygrid-day-number, 
+.fc-toolbar-title, 
+.fc-event, 
+.fc-col-header-cell, 
+.fc-daygrid-day-header {
+  color: #333 !important;
+  text-decoration: none !important;
+}
+
+.fc-button {
+  color: #fff !important;
+  background-color: #3D2C8D !important;
+  text-decoration: none !important;
+}
+
+.fc-button:hover, 
+.fc-button:active {
+  background-color: #2B1A5E !important;
+  text-decoration: none !important;
+}
+
+.fc-day-today {
+  background-color: #FFF9E6 !important;
+  color: #333 !important;
+  text-decoration: none !important;
+}
+
+.fc-daygrid-day:hover {
+  background-color: #f4f4f4 !important;
 }

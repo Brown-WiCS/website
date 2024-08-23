@@ -13,10 +13,10 @@
   white-space: normal; /* Allow the text to wrap */
   position: relative; /* Position relative for cursor placement */
   line-height: 1.5;
-  padding-bottom: 20px;
-  /* white-space: nowrap; */
-  /* display: flex; */
-  display: inline-block;
+  /* padding-bottom: 20px; */
+  white-space: nowrap;
+  display: flex;
+  /* display: inline-block; */
 }
 
 .bold-text {
