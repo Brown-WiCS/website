@@ -22,9 +22,19 @@ const Calendar = () => {
        <FullCalendar
       plugins={[dayGridPlugin, googleCalendarPlugin]}
       initialView="dayGridMonth"
+      height="auto"  // Let the calendar adjust its height automatically
+        contentHeight="auto" // Set the content height to auto to avoid extra space
+       
+      visibleRange={(currentDate) => {
+        // Get the start and end of the current month
+        const start = currentDate.clone().startOf('month');
+        const end = currentDate.clone().endOf('month');
+        return { start, end };
+      }}
+
       googleCalendarApiKey={process.env.REACT_APP_GOOGLE_CALENDAR_API_KEY} // Replace with your Google Calendar API Key
       events={{
-        googleCalendarId: 'brownwicscalendar@gmail.com', // Replace with your Google Calendar ID
+        googleCalendarId: process.env.REACT_APP_GOOGLE_CALENDAR_ID, // Replace with your Google Calendar ID
       }}
       eventClick={(info) => {
         info.jsEvent.preventDefault(); // Prevent the browser from navigating away
@@ -33,7 +43,6 @@ const Calendar = () => {
           window.open(info.event.url); // Open the event in a new tab
         }
       }}
-
       
     />
     </div>
