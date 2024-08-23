@@ -1,15 +1,15 @@
 .resource-link {
-  color: #ffffff; /* White text or your preferred color */
-  text-decoration: none; /* No underline by default */
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .resource-link:hover {
-  text-decoration: underline; /* Underline only on hover */
+  text-decoration: underline;
 }
 
 .resource-name {
-  color: #ffffff; /* Same text color for non-link items */
-  text-decoration: none; /* No underline for non-link items */
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .select-wrapper {
@@ -28,9 +28,9 @@
 }
 
 .resources .dropdown-container {
-  width: 100%; /* Ensure the container takes up the full width */
-  max-width: 300px; /* Set a max-width to control the dropdown size */
-  margin: 0 auto; /* Center the dropdown */
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .resources select {
@@ -40,24 +40,21 @@
   font-size: 1em;
   font-weight: bold;
   border-radius: 5px;
-  border-color: #2e2a50; /* Remove the default border */
-  background-color: #2e2a50; /* Dark purple background */
-  color: #ffffff; /* White text */
-  margin-bottom: 30px; /* Add padding below the dropdown */
+  border-color: #2e2a50;
+  background-color: #2e2a50;
+  color: #ffffff;
+  margin-bottom: 30px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  text-align: center; /* Center the text inside the dropdown */
+  text-align: center;
 }
 
 .resources select:focus {
-  /* border-color: #0073e6; */
   outline: none;
 }
 
 .resources ul {
   list-style-type: disc;
   padding-left: 20px;
-  
-  /* padding: 0; */
 }
 
 .resources li {
@@ -92,8 +89,8 @@
 .resources .content-container {
   padding: 0 20px;
   /* max-height: 600px; */
-  max-width: 1000px; /* Set a max-width to limit the container's size */
-  margin: 0 auto; /* Center the container */
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .resources .nav-tabs {
@@ -133,15 +130,15 @@
   min-height: 275px;
   min-width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex: 1 1 calc(50% - 20px); /* Flex-grow, flex-shrink, and flex-basis */
-  max-width: calc(50% - 20px); /* Ensures two items per row */
-  box-sizing: border-box; /* Includes padding and border in the element's width and height */
+  flex: 1 1 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  box-sizing: border-box;
 }
 
 .resources .subcategory-container {
   display: flex;
-  flex-wrap: wrap; /* Allows the items to wrap to the next line if they don't fit */
-  gap: 20px; /* Space between the bubbles */
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 
@@ -149,12 +146,12 @@
   font-size: 1.5em;
   color: white;
   font-weight: bold;
-  margin-bottom: 10px; /* Space between the header and the list */
+  margin-bottom: 10px;
 }
 
 .resources .subcategory-section ul {
   list-style-type: disc;
-  padding-left: 20px; /* Indent for the list */
+  padding-left: 20px;
 }
 
 .resources .subcategory-section li {
@@ -179,6 +176,6 @@
 @media (max-width: 768px) {
   .resources .subcategory-section {
     flex: 1 1 100%;
-    max-width: 100%; /* Full width on smaller screens */
+    max-width: 100%;
   }
 }
