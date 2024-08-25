@@ -17,6 +17,7 @@
   align-items: center;
   gap: 12px;
   white-space: nowrap;
+  width: auto;
 }
 
 .select-wrapper span {
@@ -25,17 +26,16 @@
   font-weight: bold;
   align-items: center;
   margin-bottom: 28px;
+  width: auto;
 }
 
 .resources .dropdown-container {
-  width: 100%;
-  max-width: 300px;
+  /* width: 100%;
+  max-width: 300px; */
   margin: 0 auto;
 }
 
 .resources select {
-  width: 100%;
-  max-width: 300px;
   padding: 13px;
   font-size: 1em;
   font-weight: bold;
@@ -46,6 +46,10 @@
   margin-bottom: 30px;
   transition: background-color 0.3s ease, color 0.3s ease;
   text-align: center;
+  width: auto;
+  min-width: 150px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .resources select:focus {
@@ -171,11 +175,4 @@
 
 .resources .subcategory-section li a:hover {
   text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .resources .subcategory-section {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
 }

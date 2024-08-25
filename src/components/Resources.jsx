@@ -92,11 +92,11 @@ const Resources = () => {
             <h1 className="section-header" style={{ paddingTop: "20px" }}>Resources</h1>
               <div className="select-wrapper">
               <span>Tell me about</span>
-              <select onChange={handleSelectChange} value={selectedOption} style={{ height: "auto" }}>
+              <select onChange={handleSelectChange} value={selectedOption}>
                 <option value="wics">Opportunities with WiCS</option>
                 <option value="brown">Opportunities at Brown</option>
                 {/* <option value="tips">Tips and Tricks</option> */}
-                <option value="recruiting">Recruiting</option>
+                <option value="recruiting">Recruiting & Careers</option>
               </select>
               </div>
               <div>
