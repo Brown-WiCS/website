@@ -10,6 +10,5 @@ import Sponsors from "./Sponsors.jsx";
 import Home from "./Home.jsx";
 import Blog from "./Blog.jsx";
 import ImageCarousel from "./ImageCarousel.jsx";
-import ScrollToTop from "./ScrollToTop.jsx";
 
-export { Navbar, Contact, Socials, Landing, Mission, Calendar, Footer, Resources, Blog, Sponsors, ScrollToTop, Home, ImageCarousel }
+export { Navbar, Contact, Socials, Landing, Mission, Calendar, Footer, Resources, Blog, Sponsors, Home, ImageCarousel }

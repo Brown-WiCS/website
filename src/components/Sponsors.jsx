@@ -11,7 +11,7 @@ const Sponsors = () => {
   );
   return (
     <Container className="content-container">
-      <h1 className="section-header">Our Sponsors</h1>
+      <h1 className="section-header" style={{color: "white"}}>Our Sponsors</h1>
 
       {/* Gold Sponsors Section */}
       <h2 className="section-subheader gold">Gold</h2>
@@ -24,14 +24,14 @@ const Sponsors = () => {
             <Image
               src={require("../assets/sponsors/" + sponsor.logo)}
               alt={sponsor.company}
-              style={{ width: "300px", objectFit: "contain" }}
+              style={{ width: "250px", objectFit: "contain" }}
             />
           </Col>
         ))}
       </Row>
 
       {/* Silver Sponsors Section */}
-      <h2 className="section-subheader silver">Silver</h2>
+      {/* <h2 className="section-subheader silver">Silver</h2> */}
       <Row className="m-3 justify-content-center align-items-center">
         {silverSponsors.map((sponsor, index) => (
           <Col

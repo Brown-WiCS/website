@@ -5,12 +5,11 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import {
   Navbar,
   Footer,
-  Home,
   Blog,
-  ScrollToTop
 } from "./components/components";
 
 const Resources = React.lazy(() => import('./components/Resources'));
+const Home = React.lazy(() => import('./components/Home'));
 
 function App() {
 
@@ -22,13 +21,17 @@ function App() {
         </div>
         <Routes>
           <Route path="/website" element={<Navigate to="/home" />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/home" element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <Home />
+            </Suspense>
+          } />
           <Route path="/resources" element={
             <Suspense fallback={<div>Loading...</div>}>
               <Resources />
             </Suspense>
           } />
-          <Route path="/blog" element={<Blog />} />
+          {/* <Route path="/blog" element={<Blog />} /> */}
         </Routes>
         <div>
           <Footer />

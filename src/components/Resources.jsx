@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../styles/Resources.css";
 import { IoIosLink } from "react-icons/io";
 
@@ -48,6 +48,7 @@ const recruiting = {
   ],
   "Network with Brown" : [
     { name: "Look on BrownConnect and Handshake"},
+    { name: "Technology & Tech Ventures", url: "https://sites.google.com/brown.edu/cce-resource-library/technology-and-tech-ventures"}
   ]
 }
 
@@ -58,10 +59,6 @@ const Resources = () => {
   const handleSelectChange = (event) => {
     setSelectedOption(event.target.value);
   };
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   const renderSubcategoryLinks = (resources) => {
     return (

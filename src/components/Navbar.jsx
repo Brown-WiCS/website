@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/Navbar.css";
 import WiCS from "../assets/images/WiCS.png";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
+  const { pathname } = useLocation(); // Get the current route
 
+  useEffect(() => {
+    // Scroll to the top when the pathname (route) changes
+    window.scrollTo(0, 0);
+  }, [pathname]); // Run the effect when the pathname changes
   
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="#Landing">
+        <a>
           <img src={WiCS} alt="Logo" />
         </a>
       </div>

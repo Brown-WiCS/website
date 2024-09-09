@@ -24,9 +24,9 @@ const Home = () => {
           <section id="Socials">
             <Socials />
           </section>
-          {/* <section id="Sponsors">
+          <section id="Sponsors" style={{minHeight: "60vh", background: '#182C37'}}>
             <Sponsors />
-          </section> */}
+          </section>
           <section id="Contacts">
             <Contact />
           </section>

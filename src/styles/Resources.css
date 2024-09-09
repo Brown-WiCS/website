@@ -20,6 +20,7 @@
   width: auto;
 }
 
+
 .select-wrapper span {
   display: flex;
   font-size: 22px;
@@ -40,8 +41,8 @@
   font-size: 1em;
   font-weight: bold;
   border-radius: 5px;
-  border-color: #6c62c9;
-  background-color: #6c62c9;
+  border-color: #2c2548;
+  background-color: #2c2548;
   color: #ffffff;
   margin-bottom: 30px;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -95,6 +96,7 @@
   /* max-height: 600px; */
   max-width: 1000px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .resources .nav-tabs {
