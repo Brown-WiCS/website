@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/Resources.css";
 import { IoIosLink } from "react-icons/io";
 
@@ -59,6 +59,10 @@ const Resources = () => {
     setSelectedOption(event.target.value);
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const renderSubcategoryLinks = (resources) => {
     return (
       <div className="subcategory-container">
@@ -70,7 +74,7 @@ const Resources = () => {
                 <li key={i}>
                   {resource.url ? (
                     <a href={resource.url} target="_blank" rel="noopener noreferrer" className="resource-link">
-                        {resource.name} <IoIosLink />
+                        {resource.name} <IoIosLink style={{ marginLeft: "5px" }}/>
                     </a>
                     ) : (
                        <span className="resource-name">{resource.name}</span> // Name without link

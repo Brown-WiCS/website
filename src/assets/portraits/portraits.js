@@ -48,12 +48,12 @@ export const profiles = [
   {
     name: "Valeria Quero '27",
     title: "Mentorship Co-Chair",
-    image: "jkavishe.jpg",
+    image: "vquero.jpg",
   },
   {
     name: "Fern Tantivess '25",
     title: "Mentorship Co-Chair",
-    image: "jkavishe.jpg",
+    image: "ftantivess.jpg",
   },
   {
     name: "Kathi Li '27",
@@ -63,6 +63,6 @@ export const profiles = [
   {
     name: "Victoria Hernandez '27",
     title: "Community Events Chair",
-    image: "jkavishe.jpg",
+    image: "vhernandez.jpg",
   },
 ];

@@ -46,7 +46,9 @@ const Landing = () => {
 
 function LandingButton() {
   return (
-    <a href="#Resources" rel="noreferrer">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKsWu_BiHhULc0JCWs1w46ufc7RKOG5ijY3nbAWFWKrNu-Ww/viewform"
+    target="_blank" 
+    rel="noreferrer">
       <button
         className="btn btn-primary"
         style={{ backgroundColor: "#182C37", border: "#182C37" }}

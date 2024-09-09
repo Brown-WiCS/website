@@ -4,6 +4,8 @@ import WiCS from "../assets/images/WiCS.png";
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+
+  
   return (
     <nav className="navbar">
       <div className="navbar-logo">
