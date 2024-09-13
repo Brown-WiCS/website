@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.561f480c.css",
-    "main.js": "/website/static/js/main.b5b0f6fd.js",
-    "static/js/787.f966fae4.chunk.js": "/website/static/js/787.f966fae4.chunk.js",
+    "main.css": "/website/static/css/main.d5ff668d.css",
+    "main.js": "/website/static/js/main.aad0504d.js",
+    "static/js/453.b092c014.chunk.js": "/website/static/js/453.b092c014.chunk.js",
     "static/media/ckim.jpg": "/website/static/media/ckim.c2aca553faeaa9a60fa1.jpg",
     "static/media/rchou.jpg": "/website/static/media/rchou.113899e01912b8ead1cb.jpg",
     "static/media/eye.jpg": "/website/static/media/eye.5bf41b66aeb24cecb10b.jpg",
@@ -25,12 +25,12 @@
     "static/media/palantir.png": "/website/static/media/palantir.fdd99be588dbb0dce705.png",
     "static/media/bloomberg.png": "/website/static/media/bloomberg.4d264239094b3a3053c7.png",
     "index.html": "/website/index.html",
-    "main.561f480c.css.map": "/website/static/css/main.561f480c.css.map",
-    "main.b5b0f6fd.js.map": "/website/static/js/main.b5b0f6fd.js.map",
-    "787.f966fae4.chunk.js.map": "/website/static/js/787.f966fae4.chunk.js.map"
+    "main.d5ff668d.css.map": "/website/static/css/main.d5ff668d.css.map",
+    "main.aad0504d.js.map": "/website/static/js/main.aad0504d.js.map",
+    "453.b092c014.chunk.js.map": "/website/static/js/453.b092c014.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.561f480c.css",
-    "static/js/main.b5b0f6fd.js"
+    "static/css/main.d5ff668d.css",
+    "static/js/main.aad0504d.js"
   ]
 }
