@@ -2,6 +2,7 @@
 .text-container {
   align-items: center;
   background: #FFFFFF;
+  color: black;
   border-radius: 30px;
   padding: 35px 40px;
   font-size: 20px;
@@ -9,6 +10,33 @@
   text-align: start;
 }
 
+.section-header {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.strong-emphasis {
+  font-weight: bold;
+  color: #182C37;
+}
+
 .purple {
   color: #b985fc;
+}
+
+.text-container p {
+  font-size: 1em; /* Default for larger screens */
+}
+
+@media (max-width: 768px) {
+  .text-container p {
+    font-size: 1em; /* Shrinks text for smaller screens */
+    line-height: 1.5em;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-container p {
+    font-size: 0.8em; /* Shrinks further on extra small screens */
+  }
 }

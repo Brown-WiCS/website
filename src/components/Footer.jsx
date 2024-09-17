@@ -1,12 +1,10 @@
 import React from "react";
-import "../styles/Footer.css";
 import { instagram, facebook, slack, email } from "../assets/icons/icons.js";
 
 const Footer = () => {
   return (
-    <footer className="text-center">
-      <span style={{ color: "white" }}>To reach WiCS, follow us here!</span>
-      <div className="py-3">
+    <footer>
+      <div>
         <a
           href="https://www.instagram.com/brownuwics/?hl=en"
           target="_blank"
@@ -42,7 +40,7 @@ const Footer = () => {
         </a>
       </div>
       <span style={{ color: "white" }}>
-        © 2023 Brown Women in Computer Science
+        © 2024 Brown Women in Computer Science
       </span>
     </footer>
   );
