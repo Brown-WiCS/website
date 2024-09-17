@@ -1,7 +1,8 @@
 import React from "react";
 import "../styles/Navbar.css";
 import WiCS from "../assets/images/WiCS.png";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
