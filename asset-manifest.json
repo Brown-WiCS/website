@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.a0c0fe38.css",
-    "main.js": "/website/static/js/main.3cffdf18.js",
+    "main.js": "/website/static/js/main.34de0e9c.js",
     "static/js/453.10494eb0.chunk.js": "/website/static/js/453.10494eb0.chunk.js",
     "static/media/ckim.jpg": "/website/static/media/ckim.c2aca553faeaa9a60fa1.jpg",
     "static/media/rchou.jpg": "/website/static/media/rchou.113899e01912b8ead1cb.jpg",
@@ -9,16 +9,16 @@
     "static/media/fchavez.jpg": "/website/static/media/fchavez.4c25bdfbe1dbc8a6a844.jpg",
     "static/media/namhaz.jpg": "/website/static/media/namhaz.2d189610d574487d9bd4.jpg",
     "static/media/hmasamura.jpg": "/website/static/media/hmasamura.955b4f5ca397fcacdf38.jpg",
-    "static/media/socials3.png": "/website/static/media/socials3.68835d9176da6c717b2e.png",
+    "static/media/socials5.png": "/website/static/media/socials5.10b39b0852ec5a5ff7ae.png",
+    "static/media/socials3.png": "/website/static/media/socials3.e4a6e689f50efeaf84c4.png",
     "static/media/ftantivess.jpg": "/website/static/media/ftantivess.b13d0ca7bbc3080b94f3.jpg",
     "static/media/dwilliams.jpg": "/website/static/media/dwilliams.7343b5b284603f52d950.jpg",
     "static/media/afeinberg.jpg": "/website/static/media/afeinberg.00a8bb4b3fc7d4ac4687.jpg",
-    "static/media/socials4.png": "/website/static/media/socials4.6b287052e3b696cbeb12.png",
     "static/media/cyang.jpg": "/website/static/media/cyang.d46638e08fbadc7c28a0.jpg",
-    "static/media/socials1.png": "/website/static/media/socials1.72d3adbf870d045aa790.png",
-    "static/media/socials5.png": "/website/static/media/socials5.8ac155fbee123c8bde7d.png",
-    "static/media/socials6.png": "/website/static/media/socials6.dda364b1bdbded0c6c68.png",
-    "static/media/socials2.png": "/website/static/media/socials2.7497eef2483411065425.png",
+    "static/media/socials2.png": "/website/static/media/socials2.f421758d371b69f77e28.png",
+    "static/media/socials4.png": "/website/static/media/socials4.d88cceae1974f1943dbf.png",
+    "static/media/socials1.png": "/website/static/media/socials1.ca032d3148baabf8a218.png",
+    "static/media/socials6.png": "/website/static/media/socials6.aae97cd467f0c9e36110.png",
     "static/media/vhernandez.jpg": "/website/static/media/vhernandez.3ea109b5cefd95500b81.jpg",
     "static/media/jkavishe.jpg": "/website/static/media/jkavishe.099e53b34b43618f1dc8.jpg",
     "static/media/kli.jpg": "/website/static/media/kli.23201662df276679acf1.jpg",
@@ -32,11 +32,11 @@
     "static/media/bloomberg.png": "/website/static/media/bloomberg.4d264239094b3a3053c7.png",
     "index.html": "/website/index.html",
     "main.a0c0fe38.css.map": "/website/static/css/main.a0c0fe38.css.map",
-    "main.3cffdf18.js.map": "/website/static/js/main.3cffdf18.js.map",
+    "main.34de0e9c.js.map": "/website/static/js/main.34de0e9c.js.map",
     "453.10494eb0.chunk.js.map": "/website/static/js/453.10494eb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0c0fe38.css",
-    "static/js/main.3cffdf18.js"
+    "static/js/main.34de0e9c.js"
   ]
 }
