@@ -22,8 +22,12 @@ const Resources = () => {
                 internships, and CS at Brown!
               </div>
             </div>
-            <Button variant="light" className="button">
-              Coming Soon
+            <Button variant="light"
+              className="button"
+              href="mailto:wics@lists.cs.brown.edu"
+              target="_blank">
+                
+              Email Us!
             </Button>
           </div>
         </Col>
@@ -59,10 +63,10 @@ const Resources = () => {
             <Button
               variant="light"
               className="button"
-              href="https://highfalutin-hunter-64e.notion.site/Brown-WiCS-Resources-ad53766eb36c40e9ace14a45bdd955ba?pvs=4"
+              href="https://docs.google.com/document/d/1x39l_AVrb84Z3Q3AMXhRhDoPzhroV8F4IMiGuNL5dfo/edit?usp=sharing"
               target="_blank"
             >
-              Visit our Notion
+              View our Resources
             </Button>
           </div>
         </Col>
