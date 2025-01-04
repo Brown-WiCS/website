@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.a0c0fe38.css",
-    "main.js": "/website/static/js/main.bf848898.js",
+    "main.js": "/website/static/js/main.05389bfd.js",
     "static/js/453.10494eb0.chunk.js": "/website/static/js/453.10494eb0.chunk.js",
     "static/media/ckim.jpg": "/website/static/media/ckim.c2aca553faeaa9a60fa1.jpg",
     "static/media/rchou.jpg": "/website/static/media/rchou.113899e01912b8ead1cb.jpg",
@@ -28,15 +28,16 @@
     "static/media/afry.jpg": "/website/static/media/afry.497631cceb64cdc3e1d8.jpg",
     "static/media/old_mission.png": "/website/static/media/old_mission.e07bd2441522dda76c14.png",
     "static/media/palantir.png": "/website/static/media/palantir.fdd99be588dbb0dce705.png",
+    "static/media/sixth_street.png": "/website/static/media/sixth_street.9f40ad269cff519743bb.png",
     "static/media/1. Old Mission PNG.png": "/website/static/media/1. Old Mission PNG.7607af864778cf4b0b88.png",
     "static/media/bloomberg.png": "/website/static/media/bloomberg.4d264239094b3a3053c7.png",
     "index.html": "/website/index.html",
     "main.a0c0fe38.css.map": "/website/static/css/main.a0c0fe38.css.map",
-    "main.bf848898.js.map": "/website/static/js/main.bf848898.js.map",
+    "main.05389bfd.js.map": "/website/static/js/main.05389bfd.js.map",
     "453.10494eb0.chunk.js.map": "/website/static/js/453.10494eb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0c0fe38.css",
-    "static/js/main.bf848898.js"
+    "static/js/main.05389bfd.js"
   ]
 }
