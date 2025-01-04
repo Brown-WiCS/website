@@ -20,4 +20,9 @@ export const sponsor_info = [
   //   tier: "silver",
   //   logo: "roblox.png",
   // },
+    {
+    company: "Sixth Street",
+    tier: "silver",
+    logo: "sixth_street.png",
+  },
 ];
