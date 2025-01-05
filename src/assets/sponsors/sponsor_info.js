@@ -22,7 +22,7 @@ export const sponsor_info = [
   // },
     {
     company: "Sixth Street",
-    tier: "silver",
+    tier: "platinum",
     logo: "sixth_street.png",
   },
 ];

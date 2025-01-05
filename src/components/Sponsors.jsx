@@ -9,12 +9,36 @@ const Sponsors = () => {
   const silverSponsors = sponsor_info.filter(
     (sponsor) => sponsor.tier === "silver"
   );
+  const platinumSponsors = sponsor_info.filter(
+    (sponsor) => sponsor.tier === "platinum"
+  );
   return (
     <Container className="content-container">
   <h1 className="section-header">Our Sponsors</h1>
 
   {/* Row to hold both Gold and Silver sections side by side */}
   <Row className="m-3 justify-content-center align-items-start">
+
+
+    {/* Platinum Sponsors Section */}
+    <Col xs={12} md={6} className="platinum-sponsors text-center">
+      <h2 className="section-subheader platinum">Platinum</h2>
+      <Row className="m-3 justify-content-center align-items-center">
+        {platinumSponsors.map((sponsor, index) => (
+          <Col
+            key={index}
+            className="d-flex flex-column justify-content-center align-items-center m-3"
+          >
+            <Image
+              src={require("../assets/sponsors/" + sponsor.logo)}
+              alt={sponsor.company}
+              style={{ width: "300px", objectFit: "contain" }}
+            />
+          </Col>
+        ))}
+      </Row>
+    </Col>
+
     {/* Gold Sponsors Section */}
     <Col xs={12} md={6} className="gold-sponsors text-center">
       <h2 className="section-subheader gold">Gold</h2>
@@ -52,6 +76,7 @@ const Sponsors = () => {
         ))}
       </Row>
     </Col>
+
   </Row>
 
   <br></br>
