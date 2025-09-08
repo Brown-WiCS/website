@@ -6,7 +6,7 @@ const Profile = ({ name, image, title }) => {
     <Col md={4}>
       <div className="d-flex flex-column justify-content-start align-items-center m-3">
         <Image
-          src={require("../assets/portraits/" + image)}
+          src={`${process.env.PUBLIC_URL}/portraits/${image}`}
           alt={name}
           className="mb-2"
           style={{
@@ -40,6 +40,7 @@ const Contact = () => {
       <Row className="m-5 justify-content-center">
         {profiles.map((profile) => (
           <Profile
+            key={profile.name}
             name={profile.name}
             image={profile.image}
             title={profile.title}
