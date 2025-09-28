@@ -22,7 +22,7 @@ const Sponsors = () => {
 
     {/* Platinum Sponsors Section */}
     <Col xs={12} md={6} className="platinum-sponsors text-center">
-      <h2 className="section-subheader platinum">Platinum</h2>
+      {/* <h2 className="section-subheader platinum">Platinum</h2> */}
       <Row className="m-3 justify-content-center align-items-center">
         {platinumSponsors.map((sponsor, index) => (
           <Col
@@ -41,7 +41,7 @@ const Sponsors = () => {
 
     {/* Gold Sponsors Section */}
     <Col xs={12} md={6} className="gold-sponsors text-center">
-      <h2 className="section-subheader gold">Gold</h2>
+      {/* <h2 className="section-subheader gold">Gold</h2> */}
       <Row className="m-3 justify-content-center align-items-center">
         {goldSponsors.map((sponsor, index) => (
           <Col
@@ -60,7 +60,7 @@ const Sponsors = () => {
 
     {/* Silver Sponsors Section */}
     <Col xs={12} md={6} className="silver-sponsors text-center">
-      <h2 className="section-subheader silver">Silver</h2>
+      {/* <h2 className="section-subheader silver">Silver</h2> */}
       <Row className="m-3 justify-content-center align-items-center">
         {silverSponsors.map((sponsor, index) => (
           <Col
