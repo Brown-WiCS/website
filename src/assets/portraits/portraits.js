@@ -27,7 +27,7 @@ export const profiles = [
   {
     name: "Claire Luo '28",
     title: "Co-Mentorship Chair",
-    image: "claire.jpg",
+    image: "claire.JPG",
   },
   {
     name: "Lesley Martinez-Aviles '28",
@@ -37,7 +37,7 @@ export const profiles = [
   {
     name: "Kaitlyn Cheng '27",
     title: "Co-Development Chair",
-    image: "kaitlyn.jpeg",
+    image: "kaitlyn.JPEG",
   },
   {
     name: "Loang Chiang '28",
