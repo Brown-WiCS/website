@@ -1,68 +1,72 @@
-
 export const profiles = [
   {
-    name: "Claire Yang '25",
-    title: "President",
-    image: "cyang.jpg",
-  },
-  {
-    name: "Catherine Kim '25",
-    title: "President",
-    image: "ckim.jpg",
-  },
-  {
-    name: "Alexis Fry '25",
-    title: "Vice President",
-    image: "afry.jpg",
-  },
-  {
-    name: "Haruka Masamura '25",
-    title: "Vice President",
-    image: "hmasamura.jpg",
-  },
-  {
-    name: "Valeria Quero '27",
-    title: "Mentorship Co-Chair",
-    image: "vquero.jpg",
-  },
-  {
-    name: "Fern Tantivess '25",
-    title: "Mentorship Co-Chair",
-    image: "ftantivess.jpg",
-  },
-  {
-    name: "Rebecca Chou '26",
-    title: "Technology Co-Chair",
-    image: "rchou.jpg",
-  },
-  {
     name: "Alyssa Feinberg '27",
-    title: "Technology Co-Chair",
-    image: "afeinberg.jpg",
-  },
-  {
-    name: "Dior Williams '26",
-    title: "Marketing Co-Chair",
-    image: "dwilliams.jpg",
-  },
-  {
-    name: "Jo Kavishe '25",
-    title: "Marketing Co-Chair",
-    image: "jkavishe.jpg",
+    title: "Co-President",
+    image: "alyssa.jpg",
   },
   {
     name: "Kathy Li '27",
-    title: "Academic Events Chair",
-    image: "kli.jpg",
+    title: "Co-President",
+    image: "kathy.jpeg",
   },
   {
-    name: "Victoria Hernandez '27",
-    title: "Community Events Chair",
-    image: "vhernandez.jpg",
+    name: "Dior Williams '26",
+    title: "Co-President",
+    image: "dior.png",
   },
   {
-    name: "Fernanda Chavez '25",
-    title: "Community Outreach Chair",
-    image: "fchavez.jpg",
+    name: "Vivian Wang '28",
+    title: "Co-Marketing Chair",
+    image: "vivian.png",
+  },
+  {
+    name: "Maggie Ruan '28",
+    title: "Co-Marketing Chair",
+    image: "maggie.jpeg",
+  },
+  {
+    name: "Claire Luo '28",
+    title: "Co-Mentorship Chair",
+    image: "claire.jpg",
+  },
+  {
+    name: "Lesley Martinez-Aviles '28",
+    title: "Co-Mentorship Chair",
+    image: "lesley.jpeg",
+  },
+  {
+    name: "Kaitlyn Cheng '27",
+    title: "Co-Development Chair",
+    image: "kaitlyn.jpeg",
+  },
+  {
+    name: "Loang Chiang '28",
+    title: "Co-Development Chair",
+    image: "loang.jpeg",
+  },
+  {
+    name: "Hayzie Chu '28",
+    title: "Co-Academic Events Chair",
+    image: "hayzie.jpeg",
+  },
+  {
+    name: "Jesalina Phan '28",
+    title: "Co-Academic Events Chair",
+    image: "jesalina.jpeg",
+  },
+  {
+    name: "Amber Bajaj '28",
+    title: "Co-Community Events Chair",
+    image: "amber.jpg",
+  },
+  {
+    name: "Valeria Quero '27",
+    title: "Co-Community Events Chair",
+    image: "valeria.jpg",
+  },
+  {
+    name: "Seyoung Yang '27",
+    title: "Communications Chair",
+    image: "seyoung.jpg",
   },
 ];
