@@ -21,8 +21,8 @@ export const sponsor_info = [
   //   logo: "roblox.png",
   // },
     {
-    company: "Sixth Street",
+    company: "Jane Street",
     tier: "platinum",
-    logo: "sixth_street.png",
+    logo: "jane_street.png",
   },
 ];
