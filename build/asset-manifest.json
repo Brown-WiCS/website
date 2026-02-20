@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.a0c0fe38.css",
-    "main.js": "/website/static/js/main.98b15ffb.js",
+    "main.js": "/website/static/js/main.e7fa0606.js",
     "static/js/453.10494eb0.chunk.js": "/website/static/js/453.10494eb0.chunk.js",
     "static/media/dior.png": "/website/static/media/dior.7eaac645afa64d88072d.png",
     "static/media/amber.jpg": "/website/static/media/amber.4c0688d475e527db45ae.jpg",
@@ -27,16 +27,17 @@
     "static/media/WiCS.png": "/website/static/media/WiCS.05015c1d6de5a02bc4eb.png",
     "static/media/old_mission.png": "/website/static/media/old_mission.e07bd2441522dda76c14.png",
     "static/media/palantir.png": "/website/static/media/palantir.fdd99be588dbb0dce705.png",
+    "static/media/jane_street.png": "/website/static/media/jane_street.07d9975d1df7099f6817.png",
     "static/media/sixth_street.png": "/website/static/media/sixth_street.9f40ad269cff519743bb.png",
     "static/media/1. Old Mission PNG.png": "/website/static/media/1. Old Mission PNG.7607af864778cf4b0b88.png",
     "static/media/bloomberg.png": "/website/static/media/bloomberg.4d264239094b3a3053c7.png",
     "index.html": "/website/index.html",
     "main.a0c0fe38.css.map": "/website/static/css/main.a0c0fe38.css.map",
-    "main.98b15ffb.js.map": "/website/static/js/main.98b15ffb.js.map",
+    "main.e7fa0606.js.map": "/website/static/js/main.e7fa0606.js.map",
     "453.10494eb0.chunk.js.map": "/website/static/js/453.10494eb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0c0fe38.css",
-    "static/js/main.98b15ffb.js"
+    "static/js/main.e7fa0606.js"
   ]
 }

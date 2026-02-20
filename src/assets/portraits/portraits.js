@@ -50,7 +50,7 @@ export const profiles = [
     image: "hayzie.jpeg",
   },
   {
-    name: "Jesalina Phan '28",
+    name: "Jesalina Phan '27",
     title: "Co-Academic Events Chair",
     image: "jesalina.jpeg",
   },
@@ -60,7 +60,7 @@ export const profiles = [
     image: "amber.jpg",
   },
   {
-    name: "Valeria Quero '27",
+    name: "Valeria Quero '28",
     title: "Co-Community Events Chair",
     image: "valeria.jpg",
   },
