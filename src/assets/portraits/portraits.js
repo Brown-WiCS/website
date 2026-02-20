@@ -1,4 +1,3 @@
-
 export const profiles = [
   {
     name: "Alyssa Feinberg '27",
@@ -28,7 +27,7 @@ export const profiles = [
   {
     name: "Claire Luo '28",
     title: "Co-Mentorship Chair",
-    image: "claire.jpg",
+    image: "claire.JPG",
   },
   {
     name: "Lesley Martinez-Aviles '28",
@@ -38,7 +37,7 @@ export const profiles = [
   {
     name: "Kaitlyn Cheng '27",
     title: "Co-Development Chair",
-    image: "kaitlyn.jpeg",
+    image: "kaitlyn.JPEG",
   },
   {
     name: "Loang Chiang '28",
@@ -51,7 +50,7 @@ export const profiles = [
     image: "hayzie.jpeg",
   },
   {
-    name: "Jesalina Phan '28",
+    name: "Jesalina Phan '27",
     title: "Co-Academic Events Chair",
     image: "jesalina.jpeg",
   },
@@ -61,7 +60,7 @@ export const profiles = [
     image: "amber.jpg",
   },
   {
-    name: "Valeria Quero '27",
+    name: "Valeria Quero '28",
     title: "Co-Community Events Chair",
     image: "valeria.jpg",
   },

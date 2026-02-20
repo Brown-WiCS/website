@@ -1,3 +1,10 @@
+html, body {
+  background-color: #EBE5F3;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -34,7 +41,7 @@ main {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;

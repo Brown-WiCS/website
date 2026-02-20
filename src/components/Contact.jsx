@@ -3,8 +3,8 @@ import { profiles } from "../assets/portraits/portraits";
 
 const Profile = ({ name, image, title }) => {
   return (
-    <Col md={4}>
-      <div className="d-flex flex-column justify-content-start align-items-center m-3">
+    <Col md={4} className="mb-4"> 
+      <div className="d-flex flex-column justify-content-center align-items-center">
         <Image
           src={`${process.env.PUBLIC_URL}/portraits/${image}`}
           alt={name}
@@ -37,7 +37,7 @@ const Contact = () => {
   return (
     <Container className="content-container">
       <h1 className="section-header">Executive Board</h1>
-      <Row className="m-5 justify-content-center">
+      <Row className="justify-content-center flex-wrap">
         {profiles.map((profile) => (
           <Profile
             key={profile.name}

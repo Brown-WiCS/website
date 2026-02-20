@@ -1,35 +1,54 @@
 import React from "react";
 import "../styles/Navbar.css";
 import WiCS from "../assets/images/WiCS.png";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
-        <a href="#Landing">
-          <img src={WiCS} alt="Logo" />
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+        {/* Logo */}
+        <a className="navbar-brand" href="#Landing">
+          <img src={WiCS} alt="Logo" style={{ height: "72px" }} />
         </a>
+
+        {/* Hamburger icon for mobile */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        {/* Navbar links */}
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <a className="nav-link" href="#Mission">Mission</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Calendar">Calendar</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Resources">Resources</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Socials">Socials</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Sponsors">Sponsors</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Contacts">Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul className="navbar-sections">
-        <li className="Mission mission-header">
-          <a href="#Mission">Mission</a>
-        </li>
-        <li className="Calendar">
-          <a href="#Calendar">Calendar</a>
-        </li>
-        <li className="Resources">
-          <a href="#Resources">Resources</a>
-        </li>
-        <li className="Socials">
-          <a href="#Socials">Socials</a>
-        </li>
-        <li className="Sponsors">
-          <a href="#Sponsors">Sponsors</a>
-        </li>
-        <li className="Contacts">
-          <a href="#Contacts">Contact Us</a>
-        </li>
-      </ul>
     </nav>
   );
 }
