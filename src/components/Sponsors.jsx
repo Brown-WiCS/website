@@ -80,24 +80,44 @@ const Sponsors = () => {
       </Row>
     </Col>
 
-    {/* Silver Sponsors Section */}
-    <Col xs={12} md={6} className="more-sponsors text-center">
-      {/* <h2 className="section-subheader silver">Silver</h2> */}
-      <Row className="m-3 justify-content-center align-items-center">
-        {moreSponsors.map((sponsor, index) => (
-          <Col
-            key={index}
-            className="d-flex flex-column justify-content-center align-items-center m-3"
-          >
-            <Image
-              src={require("../assets/sponsors/" + sponsor.logo)}
-              alt={sponsor.company}
-              style={{ width: "300px", objectFit: "contain" }}
-            />
-          </Col>
-        ))}
-      </Row>
-    </Col>
+    {/* More Sponsors Section */}
+<Col xs={12} className="more-sponsors text-center">
+  <Row className="justify-content-center g-4">
+    {moreSponsors.map((sponsor, index) => (
+      <Col
+        key={index}
+        xs={12}
+        sm={6}
+        md={4}
+        className="d-flex justify-content-center"
+      >
+        {/* Fixed-size box so every logo aligns */}
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "300px",
+            height: "150px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "10px 0",
+          }}
+        >
+          <Image
+            src={require("../assets/sponsors/" + sponsor.logo)}
+            alt={sponsor.company}
+            style={{
+              maxWidth: "100%",
+              maxHeight: "100%",
+              objectFit: "contain",
+            }}
+            fluid
+          />
+        </div>
+      </Col>
+    ))}
+  </Row>
+</Col>
 
   </Row>
 

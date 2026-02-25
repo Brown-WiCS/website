@@ -1,7 +1,7 @@
 export const sponsor_info = [
   {
     company: "Bloomberg",
-    tier: "gold",
+    tier: "more",
     logo: "bloomberg.png",
   },
 
@@ -12,7 +12,7 @@ export const sponsor_info = [
   // },
   {
     company: "Old Mission",
-    tier: "silver",
+    tier: "more",
     logo: "old_mission.png",
   },
   // {
@@ -22,7 +22,7 @@ export const sponsor_info = [
   // },
   {
     company: "Jane Street",
-    tier: "platinum",
+    tier: "more",
     logo: "jane_street.png",
   },
   {
