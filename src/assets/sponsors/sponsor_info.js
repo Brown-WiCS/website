@@ -1,43 +1,51 @@
+// Logos live in this folder (src/assets/sponsors/). Sponsors appear in this order.
+// Set `show: false` to hide a past sponsor without deleting it.
 export const sponsor_info = [
   {
     company: "Bloomberg",
-    tier: "more",
     logo: "bloomberg.png",
+    show: true,
   },
-
-  // {
-  //   company: "Palantir",
-  //   tier: "gold",
-  //   logo: "palantir.png",
-  // },
   {
-    company: "Old Mission",
-    tier: "more",
-    logo: "old_mission.png",
+    company: "Five Rings",
+    logo: "fiverings.png",
+    show: true,
   },
-  // {
-  //   company: "Roblox",
-  //   tier: "silver",
-  //   logo: "roblox.png",
-  // },
   {
     company: "Jane Street",
-    tier: "more",
     logo: "jane_street.png",
-  },
-  {
-    company: "Sixth Street",
-    tier: "more",
-    logo: "sixth_street.png",
+    show: true,
   },
   {
     company: "Visa",
-    tier: "more",
     logo: "visa.png",
+    show: true,
+  },
+
+  // Past sponsors
+  {
+    company: "Old Mission",
+    logo: "old_mission.png",
+    show: false,
+  },
+  {
+    company: "Sixth Street",
+    logo: "sixth_street.png",
+    show: false,
   },
   {
     company: "HRT",
-    tier: "more",
     logo: "hrt.png",
-  }
+    show: false,
+  },
+  {
+    company: "Palantir",
+    logo: "palantir.png",
+    show: false,
+  },
+  {
+    company: "Roblox",
+    logo: "roblox.png",
+    show: false,
+  },
 ];
