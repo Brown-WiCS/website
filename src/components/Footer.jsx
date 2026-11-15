@@ -40,7 +40,7 @@ const Footer = () => {
         </a>
       </div>
       <span style={{ color: "white" }}>
-        © 2024 Brown Women in Computer Science
+        © {new Date().getFullYear()} Brown Women in Computer Science
       </span>
     </footer>
   );
