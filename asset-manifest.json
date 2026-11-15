@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.a0c0fe38.css",
-    "main.js": "/website/static/js/main.208d184a.js",
+    "main.js": "/website/static/js/main.15f6432e.js",
     "static/js/453.b092c014.chunk.js": "/website/static/js/453.b092c014.chunk.js",
     "static/media/socials1.png": "/website/static/media/socials1.84a38ff569636c674852.png",
     "static/media/socials2.png": "/website/static/media/socials2.1de6b96e7402f208ae5b.png",
@@ -10,6 +10,7 @@
     "static/media/socials4.png": "/website/static/media/socials4.24a043352e4e7be10ebb.png",
     "static/media/socials6.png": "/website/static/media/socials6.16384a655e290243721e.png",
     "static/media/WiCSLogo.png": "/website/static/media/WiCSLogo.df98fd8e118cdef6b767.png",
+    "static/media/fiverings.png": "/website/static/media/fiverings.da779e06ba3786f5837f.png",
     "static/media/WiCS.png": "/website/static/media/WiCS.05015c1d6de5a02bc4eb.png",
     "static/media/old_mission.png": "/website/static/media/old_mission.e07bd2441522dda76c14.png",
     "static/media/visa.png": "/website/static/media/visa.ede95a23f3bfc03abd95.png",
@@ -20,11 +21,11 @@
     "static/media/bloomberg.png": "/website/static/media/bloomberg.4d264239094b3a3053c7.png",
     "index.html": "/website/index.html",
     "main.a0c0fe38.css.map": "/website/static/css/main.a0c0fe38.css.map",
-    "main.208d184a.js.map": "/website/static/js/main.208d184a.js.map",
+    "main.15f6432e.js.map": "/website/static/js/main.15f6432e.js.map",
     "453.b092c014.chunk.js.map": "/website/static/js/453.b092c014.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0c0fe38.css",
-    "static/js/main.208d184a.js"
+    "static/js/main.15f6432e.js"
   ]
 }
